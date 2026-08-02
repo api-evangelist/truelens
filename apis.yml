@@ -1,8 +1,25 @@
 aid: truelens
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truelens.png
 name: TrueLens
-description: 'TrueLens is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'TrueLens was a marketing-technology startup providing social media analytics
+  and customer intelligence. Its product, Socialgraphics, helped brands target customers
+  using data compiled and analyzed from multiple social networks for marketing campaigns.
+  Google Ventures (GV) led a roughly $1.2M funding round in 2012; the company was small
+  (2-10 employees). TrueLens now appears defunct: its former domain truelens.com 301-redirects
+  to an unrelated retailer (misterspex.de), and no public API, developer portal, or
+  documentation could be found. It was added to the API Evangelist network as a GV portfolio
+  lead; there is no live API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/truelens/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,21 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: 'Former domain truelens.com 301-redirects to misterspex.de (unrelated
+  retailer); no API, developer portal, or docs found.'
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Social Media
+- Analytics
+- Marketing
+- Customer Intelligence
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: http://truelens.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
